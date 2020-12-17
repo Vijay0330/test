@@ -1,0 +1,124 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+.imageDiv {
+    width: 100px;
+    height: 190px;
+}
+#postdatadiv {
+    padding: 10px 55px;
+    border: 1px solid rgb(216, 214, 214);
+    margin: 25px;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    span {
+        margin-left: 25px;
+    }
+    button {
+        outline: none;
+    }
+
+}
+.addcartbtn  { 
+        
+        text-align: center;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: coral;
+        color: whitesmoke;
+        border: 1px solid blue;
+        &:active{
+            background-color: rgb(218, 99, 99);
+            transform: translateY(4px);
+            
+        }
+        
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+nav {
+    background-color: lightblue;
+    a {
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+}
+.main-nav:active{
+    color: chocolate;
+  }
+.main-nav-active {
+    color:red;
+    font-size: 22px;
+  }
+  .title:active {
+    a {
+      color: white;
+    }
+    
+  }
+  #searchinput {
+      margin-left: 20px;
+      border-radius: 5px 0 0 5px;
+      padding: 5px 50px 5px 20px;
+  }
+  #searchComponent {
+      display: flex;
+      button {
+          color: whitesmoke;
+          background-color: brown;
+          border: none;
+          outline: none;
+          border-radius: 0px 5px 5px 0px;
+          margin-right: 10px;
+          &:active{
+            background-color: rgb(218, 99, 99);
+            transform: translateX(-2px);
+        }
+      }
+  }
+  #greeting { 
+    color: rgb(235, 108, 129);
+    padding-right:20px ;
+  }
+  #modalComponant1 {
+    width: 300px;
+    height: fit-content;
+   margin: 0 auto;
+   text-align: center;
+   input {
+    margin: 10px;
+    padding: 5px;
+  }
+  button {
+    border-radius: 5px;
+    border: 1px solid darkseagreen;
+    background-color: cornflowerblue;
+    color: white;
+  }
+  span {
+    cursor: pointer;
+    font-size: 12px;
+    color: orange;
+    float: right;
+  }
+  }
+  #modalComponent2 {
+    height: fit-content;
+    width: 500px;
+    margin: 0 auto;
+  }
+  .cartCount {
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #cartNav {
+    padding-right: 0;
+  }

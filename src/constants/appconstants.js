@@ -1,0 +1,3 @@
+export const PRODUCT_DATA ='PRODUCT_DATA';
+export const UPDATE_CART_DATA = 'UPDATE_CART_DATA';
+export const REMOVE_CART_DATA = 'REMOVE_CART_DATA';
